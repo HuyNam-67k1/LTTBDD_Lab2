@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_2_a">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="731dp"
+        app:srcCompat="@drawable/rectangle_13"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:fontFamily="sans-serif-black"
+        android:text="LOGIN"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="367dp"
+        android:layout_height="52dp"
+        android:background="#131313"
+        android:fontFamily="sans-serif-black"
+        android:text="LOGIN"
+        android:textColor="#F6F4F4"
+        android:textSize="24sp"
+        app:backgroundTint="#020202"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="256dp"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Forget your password?"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:background="#FFC107"
+        android:drawableLeft="@drawable/user__1_"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="#0B0A0A"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="345dp"
+        android:layout_height="43dp"
+        android:background="#FFC107"
+        android:drawableLeft="@drawable/vector__1_"
+        android:drawableRight="@drawable/vector__2_"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:freezesText="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#0B0A0A"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
